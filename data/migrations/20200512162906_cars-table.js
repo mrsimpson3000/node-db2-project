@@ -9,7 +9,7 @@ exports.up = function (knex) {
     // Creates a text field called model which is required
     tbl.text("model", 255).notNullable();
     // Creates an integer field called mileage which is required
-    tbl.integer("milage").notNullable();
+    tbl.integer("mileage").notNullable();
     // Creates a text field called trans_type that is not required
     tbl.text("trans_type", 255);
     // Creates a text field called title that is not required

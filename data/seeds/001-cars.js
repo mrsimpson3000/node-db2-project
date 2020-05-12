@@ -6,7 +6,7 @@ exports.seed = function (knex) {
       // Inserts seed entries
       return knex("cars").insert([
         {
-          // id: 1,
+          id: 1,
           VIN: "JM1BM1L39E1201857",
           make: "Ford",
           model: "Escort",
@@ -15,7 +15,7 @@ exports.seed = function (knex) {
           title: "clear",
         },
         {
-          // id: 2,
+          id: 2,
           VIN: "JT4RN93P0K5035083",
           make: "Saturn",
           model: "Ion",
@@ -24,7 +24,7 @@ exports.seed = function (knex) {
           title: "clear",
         },
         {
-          // id: 3,
+          id: 3,
           VIN: "1FADP5AU5FL131496",
           make: "Dodge",
           model: "Durango",
